@@ -108,6 +108,16 @@ const Login = () => {
               </button>
             </div>
           </form>
+
+          {/* Navigate to Home Button */}
+          <div className="mt-4 text-center">
+            <button
+              onClick={() => navigate('/')}
+              className="text-indigo-600 hover:text-indigo-500 font-medium text-sm"
+            >
+              Back to Home
+            </button>
+          </div>
         </div>
       </div>
     </div>
